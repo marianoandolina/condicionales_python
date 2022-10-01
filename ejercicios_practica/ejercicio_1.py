@@ -40,9 +40,9 @@ else:
 # Imprima en pantalla si se cumple o no la condición
 
 if numero_1 > 0 and numero_1 < 100:
-    print('Se cumple la condicion.')
+    print('Se cumple la condicion "El {} es mayor a 0 y menor a 100".'.format(numero_1))
 else:
-    print('No se cumple la condicion.')
+    print('No se cumple la condicion "El {} no es mayor a 0 y menor a 100".'.format(numero_1))
 
 
 # Verifique si el numero_1 es menor a 10 o el numero_2
